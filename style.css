@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    font-family: 'Helvetica';
+}
+
+h1, h2, p, span {
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+header, #hero {
+    background-color: #1F2937;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 15%;
+    padding-top: 1em;
+}
+
+nav > section:nth-of-type(2) {
+    display: flex;
+    gap: 2em;
+}
+
+#hero {
+    padding-block: 4em;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15%;
+}
+
+#hero > article {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 1em;
+}
+
+#hero > article > button {
+    width: 25%;
+    padding: .5em;
+    font-weight: bolder;
+    background-color: #3882F6;
+    border: none;
+    border-radius: .5em;
+    color: #f9faf8;
+}
+
+#placeholder-img {
+    padding: 14em;
+    padding-block: 8em;
+    background-color: gray;
+}
+
+/* random information section */
+
+#random {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    justify-content: center;
+    padding-block: 2em;
+    padding-inline: 15%;
+    text-align: center;
+}
+
+#random h2 {
+    color: black;
+    font-weight: 900;
+}
+
+#cubes-div {
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+}
+
+.cube-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cube-wrap p {
+    color: gray;
+}
+
+.cube {
+    padding: 5em;
+    border: solid 5px #3882F6;
+    border-radius: 9px;
+}
